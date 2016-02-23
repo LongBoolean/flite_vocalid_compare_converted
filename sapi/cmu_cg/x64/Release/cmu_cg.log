@@ -1,0 +1,21 @@
+Build started 10/30/2015 11:04:03 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_cg\cmu_cg.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\cmu_cg.pdb" /Gd /TC /errorReport:prompt ..\..\src\cg\cst_cg_load_voice.c
+         cst_cg_load_voice.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\cmu_cg.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\cst_cg.obj
+         x64\Release\cst_cg_dump_voice.obj
+         x64\Release\cst_cg_load_voice.obj
+         x64\Release\cst_cg_map.obj
+         x64\Release\cst_mlpg.obj
+         x64\Release\cst_mlsa.obj
+         x64\Release\cst_spamf0.obj
+         x64\Release\cst_vc.obj
+         x64\Release\stdafx.obj
+         cmu_cg.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\cmu_cg.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_cg\cmu_cg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

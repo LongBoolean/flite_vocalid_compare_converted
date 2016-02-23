@@ -1,0 +1,222 @@
+Build started 9/16/2015 8:53:42 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D NO_UNION_INITIALIZATION /D CST_AUDIO_NONE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\flite.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\audio\audio.c ..\..\src\audio\au_command.c ..\..\src\audio\au_none.c ..\..\src\audio\au_streaming.c ..\..\src\cg\cst_cg.c ..\..\src\cg\cst_cg_dump_voice.c ..\..\src\cg\cst_cg_load_voice.c ..\..\src\cg\cst_cg_map.c ..\..\src\cg\cst_mlpg.c ..\..\src\cg\cst_mlsa.c ..\..\src\cg\cst_spamf0.c ..\..\src\cg\cst_vc.c ..\..\src\hrg\cst_ffeature.c ..\..\src\hrg\cst_item.c ..\..\src\hrg\cst_relation.c ..\..\src\hrg\cst_rel_io.c ..\..\src\hrg\cst_utterance.c ..\..\src\lexicon\cst_lexicon.c ..\..\src\lexicon\cst_lts.c ..\..\src\regex\cst_regex.c ..\..\src\regex\regexp.c ..\..\src\regex\regsub.c ..\..\src\speech\cst_lpcres.c ..\..\src\speech\cst_track.c ..\..\src\speech\cst_track_io.c ..\..\src\speech\cst_wave.c ..\..\src\speech\cst_wave_io.c ..\..\src\speech\cst_wave_utils.c ..\..\src\speech\g721.c ..\..\src\speech\g723_24.c ..\..\src\speech\g723_40.c ..\..\src\speech\g72x.c ..\..\src\speech\rateconv.c ..\..\src\stats\cst_cart.c ..\..\src\stats\cst_viterbi.c ..\..\src\synth\cst_ffeatures.c ..\..\src\synth\cst_phoneset.c ..\..\src\synth\cst_ssml.c ..\..\src\synth\cst_synth.c ..\..\src\synth\cst_utt_utils.c ..\..\src\synth\cst_voice.c ..\..\src\synth\flite.c ..\..\src\utils\cst_alloc.c ..\..\src\utils\cst_args.c ..\..\src\utils\cst_endian.c ..\..\src\utils\cst_error.c ..\..\src\utils\cst_features.c ..\..\src\utils\cst_file_stdio.c ..\..\src\utils\cst_mmap_none.c ..\..\src\utils\cst_mmap_win32.c ..\..\src\utils\cst_socket.c ..\..\src\utils\cst_string.c ..\..\src\utils\cst_tokenstream.c ..\..\src\utils\cst_url.c ..\..\src\utils\cst_val.c ..\..\src\utils\cst_val_const.c ..\..\src\utils\cst_val_user.c ..\..\src\utils\cst_wchar.c ..\..\src\wavesynth\cst_clunits.c ..\..\src\wavesynth\cst_diphone.c ..\..\src\wavesynth\cst_reflpc.c ..\..\src\wavesynth\cst_sigpr.c ..\..\src\wavesynth\cst_sts.c ..\..\src\wavesynth\cst_units.c
+         cst_units.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\wavesynth\cst_units.c(242): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\wavesynth\cst_units.c(281): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\wavesynth\cst_units.c(513): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\wavesynth\cst_units.c(559): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         cst_sts.c
+         cst_sigpr.c
+         cst_reflpc.c
+         cst_diphone.c
+         cst_clunits.c
+         cst_wchar.c
+         cst_val_user.c
+         cst_val_const.c
+         cst_val.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_val.c(158): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+         cst_url.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_url.c(118): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\corecrt_io.h(556): note: see declaration of 'write'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_url.c(125): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\corecrt_io.h(521): note: see declaration of 'read'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_url.c(149): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(2448): note: see declaration of 'fdopen'
+         cst_tokenstream.c
+         cst_string.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_string.c(105): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+         cst_socket.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_socket.c(98): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: see declaration of 'inet_addr'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_socket.c(101): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): note: see declaration of 'gethostbyname'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_socket.c(123): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_socket.c(180): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+         cst_mmap_win32.c
+         cst_mmap_none.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_mmap_none.c(73): warning C4018: '<': signed/unsigned mismatch
+         cst_file_stdio.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(66): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(68): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_file_stdio.c(138): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+         cst_features.c
+         cst_error.c
+         cst_endian.c
+         Generating Code...
+         Compiling...
+         cst_args.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\utils\cst_args.c(84): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+         cst_alloc.c
+         flite.c
+         cst_voice.c
+         cst_utt_utils.c
+         cst_synth.c
+         cst_ssml.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ssml.c(202): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ssml.c(205): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ssml.c(208): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ssml.c(211): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+         cst_phoneset.c
+         cst_ffeatures.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ffeatures.c(190): warning C4133: 'return': incompatible types - from 'const cst_val_int *' to 'const cst_val *'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ffeatures.c(192): warning C4133: 'return': incompatible types - from 'const cst_val_int *' to 'const cst_val *'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ffeatures.c(221): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\synth\cst_ffeatures.c(510): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+         cst_viterbi.c
+         cst_cart.c
+         rateconv.c
+         g72x.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\speech\g72x.c(295): warning C4244: '=': conversion from 'long' to 'short', possible loss of data
+         g723_40.c
+         g723_24.c
+         g721.c
+         cst_wave_utils.c
+         cst_wave_io.c
+         cst_wave.c
+         cst_track_io.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\speech\cst_track_io.c(117): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\speech\cst_track_io.c(120): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         cst_track.c
+         cst_lpcres.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\speech\cst_lpcres.c(61): warning C4090: 'function': different 'const' qualifiers
+         regsub.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\regex\regsub.c(75): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\regex\regsub.c(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+         regexp.c
+         cst_regex.c
+         cst_lts.c
+         cst_lexicon.c
+         cst_utterance.c
+         cst_rel_io.c
+         cst_relation.c
+         cst_item.c
+         cst_ffeature.c
+         cst_vc.c
+         cst_spamf0.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(123): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(139): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         cst_mlsa.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_mlsa.c(137): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+         cst_mlpg.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_mlpg.c(933): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         cst_cg_map.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_map.c(52): warning C4018: '<': signed/unsigned mismatch
+         cst_cg_load_voice.c
+         cst_cg_dump_voice.c
+         cst_cg.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(326): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(364): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(377): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(383): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(532): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(544): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(553): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         au_streaming.c
+         au_none.c
+         au_command.c
+         audio.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\audio\audio.c(272): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\audio\audio.c(285): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:".\Debug\flite.lib" /NOLOGO .\Debug\audio.obj
+         .\Debug\au_command.obj
+         .\Debug\au_none.obj
+         .\Debug\au_streaming.obj
+         .\Debug\cst_cg.obj
+         .\Debug\cst_cg_dump_voice.obj
+         .\Debug\cst_cg_load_voice.obj
+         .\Debug\cst_cg_map.obj
+         .\Debug\cst_mlpg.obj
+         .\Debug\cst_mlsa.obj
+         .\Debug\cst_spamf0.obj
+         .\Debug\cst_vc.obj
+         .\Debug\cst_ffeature.obj
+         .\Debug\cst_item.obj
+         .\Debug\cst_relation.obj
+         .\Debug\cst_rel_io.obj
+         .\Debug\cst_utterance.obj
+         .\Debug\cst_lexicon.obj
+         .\Debug\cst_lts.obj
+         .\Debug\cst_regex.obj
+         .\Debug\regexp.obj
+         .\Debug\regsub.obj
+         .\Debug\cst_lpcres.obj
+         .\Debug\cst_track.obj
+         .\Debug\cst_track_io.obj
+         .\Debug\cst_wave.obj
+         .\Debug\cst_wave_io.obj
+         .\Debug\cst_wave_utils.obj
+         .\Debug\g721.obj
+         .\Debug\g723_24.obj
+         .\Debug\g723_40.obj
+         .\Debug\g72x.obj
+         .\Debug\rateconv.obj
+         .\Debug\cst_cart.obj
+         .\Debug\cst_viterbi.obj
+         .\Debug\cst_ffeatures.obj
+         .\Debug\cst_phoneset.obj
+         .\Debug\cst_ssml.obj
+         .\Debug\cst_synth.obj
+         .\Debug\cst_utt_utils.obj
+         .\Debug\cst_voice.obj
+         .\Debug\flite.obj
+         .\Debug\cst_alloc.obj
+         .\Debug\cst_args.obj
+         .\Debug\cst_endian.obj
+         .\Debug\cst_error.obj
+         .\Debug\cst_features.obj
+         .\Debug\cst_file_stdio.obj
+         .\Debug\cst_mmap_none.obj
+         .\Debug\cst_mmap_win32.obj
+         .\Debug\cst_socket.obj
+         .\Debug\cst_string.obj
+         .\Debug\cst_tokenstream.obj
+         .\Debug\cst_url.obj
+         .\Debug\cst_val.obj
+         .\Debug\cst_val_const.obj
+         .\Debug\cst_val_user.obj
+         .\Debug\cst_wchar.obj
+         .\Debug\cst_clunits.obj
+         .\Debug\cst_diphone.obj
+         .\Debug\cst_reflpc.obj
+         .\Debug\cst_sigpr.obj
+         .\Debug\cst_sts.obj
+         .\Debug\cst_units.obj
+     1>cst_mmap_none.obj : warning LNK4006: _cst_mmap_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: _cst_munmap_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: _cst_read_whole_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: _cst_free_whole_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: _cst_read_part_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: _cst_free_part_file already defined in cst_mmap_win32.obj; second definition ignored
+         flite.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\.\Debug\flite.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.37

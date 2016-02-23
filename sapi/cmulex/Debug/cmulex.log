@@ -1,0 +1,24 @@
+Build started 9/15/2015 10:51:57 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmulex\cmulex.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\cmulex.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm250 ..\..\lang\cmulex\cmu_lex.c ..\..\lang\cmulex\cmu_lex_data.c ..\..\lang\cmulex\cmu_lex_entries.c ..\..\lang\cmulex\cmu_lts_model.c ..\..\lang\cmulex\cmu_lts_rules.c ..\..\lang\cmulex\cmu_postlex.c
+         cmu_postlex.c
+         cmu_lts_rules.c
+         cmu_lts_model.c
+         cmu_lex_entries.c
+         cmu_lex_data.c
+         cmu_lex.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:".\Debug\cmulex.lib" /NOLOGO .\Debug\cmu_lex.obj
+         .\Debug\cmu_lex_data.obj
+         .\Debug\cmu_lex_entries.obj
+         .\Debug\cmu_lts_model.obj
+         .\Debug\cmu_lts_rules.obj
+         .\Debug\cmu_postlex.obj
+         cmulex.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmulex\.\Debug\cmulex.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmulex\cmulex.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.20

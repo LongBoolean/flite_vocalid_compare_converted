@@ -1,0 +1,21 @@
+Build started 9/15/2015 12:41:50 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_cg\cmu_cg.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\cmu_cg.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\cg\cst_cg_load_voice.c
+         cst_cg_load_voice.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Debug\cmu_cg.lib" /NOLOGO Debug\cst_cg.obj
+         Debug\cst_cg_dump_voice.obj
+         Debug\cst_cg_load_voice.obj
+         Debug\cst_cg_map.obj
+         Debug\cst_mlpg.obj
+         Debug\cst_mlsa.obj
+         Debug\cst_spamf0.obj
+         Debug\cst_vc.obj
+         Debug\stdafx.obj
+         cmu_cg.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Debug\cmu_cg.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_cg\cmu_cg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.46

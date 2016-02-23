@@ -75,6 +75,7 @@ int cst_socket_close(int socket)
 #else
 #include <io.h>
 #include <WinSock2.h>
+#pragma comment(lib, "ws2_32.lib")
 #endif
 #include "cst_socket.h"
 #include "cst_error.h"

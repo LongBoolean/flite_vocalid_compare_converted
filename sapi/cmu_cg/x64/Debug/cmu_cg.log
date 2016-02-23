@@ -1,0 +1,56 @@
+Build started 10/30/2015 6:57:52 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_cg\cmu_cg.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\cmu_cg.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\cmu_cg.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\cmu_cg.pdb" /Gd /TC /errorReport:prompt ..\..\src\cg\cst_cg.c ..\..\src\cg\cst_cg_dump_voice.c ..\..\src\cg\cst_cg_load_voice.c ..\..\src\cg\cst_cg_map.c ..\..\src\cg\cst_mlpg.c ..\..\src\cg\cst_mlsa.c ..\..\src\cg\cst_spamf0.c ..\..\src\cg\cst_vc.c
+         cst_vc.c
+         cst_spamf0.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(123): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_spamf0.c(139): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         cst_mlsa.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_mlsa.c(137): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+         cst_mlpg.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_mlpg.c(933): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         cst_cg_map.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_map.c(50): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+         cst_cg_load_voice.c
+         cst_cg_dump_voice.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(52): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(76): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(100): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(104): warning C4244: '=': conversion from 'const __int64' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(109): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(129): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(188): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(210): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(218): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(219): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg_dump_voice.c(264): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+         cst_cg.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(326): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(364): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(377): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(383): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(532): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(544): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\src\cg\cst_cg.c(553): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Debug\cmu_cg.lib" /NOLOGO /MACHINE:X64 x64\Debug\cst_cg.obj
+         x64\Debug\cst_cg_dump_voice.obj
+         x64\Debug\cst_cg_load_voice.obj
+         x64\Debug\cst_cg_map.obj
+         x64\Debug\cst_mlpg.obj
+         x64\Debug\cst_mlsa.obj
+         x64\Debug\cst_spamf0.obj
+         x64\Debug\cst_vc.obj
+         x64\Debug\stdafx.obj
+         cmu_cg.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Debug\cmu_cg.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_cg\cmu_cg.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39

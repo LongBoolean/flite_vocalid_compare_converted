@@ -1,0 +1,38 @@
+Build started 9/16/2015 8:53:55 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteTTSEngineObj\FliteTTSEngineObj.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (.\Debug\) contains files shared from another project (FliteTTSEngineObj.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\FliteTTSEngineObj.pdb" /Gd /TP /analyze- /errorReport:prompt FliteTTSEngineObj.cpp
+         FliteTTSEngineObj.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\sphelper.h(1319): warning C4996: 'GetVersionExA': was declared deprecated
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(476): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(479): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(494): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(496): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(534): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(540): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(542): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(599): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(601): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(635): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(637): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\FliteTTSEngineObj.pdb" /Gd /TC /analyze- /errorReport:prompt flite_sapi_usenglish.c
+         flite_sapi_usenglish.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flite_sapi_usenglish.c(182): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:".\Debug\FliteTTSEngineObj.lib" /NOLOGO .\Debug\FliteTTSEngineObj.obj
+         .\Debug\flite_sapi_usenglish.obj
+         FliteTTSEngineObj.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteTTSEngineObj\.\Debug\FliteTTSEngineObj.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteTTSEngineObj\FliteTTSEngineObj.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20

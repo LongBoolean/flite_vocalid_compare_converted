@@ -44,7 +44,7 @@
 CST_VAL_REGISTER_TYPE_NODEL(cart,cst_cart)
 
 /* Make this 1 if you want to debug some cart calls */
-#define CART_DEBUG 0
+#define CART_DEBUG 1
 
 #define cst_cart_node_n(P,TREE) ((TREE)->rule_table[P])
 

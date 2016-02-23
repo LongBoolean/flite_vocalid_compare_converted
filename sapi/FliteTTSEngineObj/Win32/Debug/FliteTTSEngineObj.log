@@ -1,0 +1,32 @@
+Build started 10/30/2015 10:56:45 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteTTSEngineObj\FliteTTSEngineObj.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\FliteTTSEngineObj.pdb" /Gd /TP /analyze- /errorReport:prompt FliteTTSEngineObj.cpp
+         FliteTTSEngineObj.cpp
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(482): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(485): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(500): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(502): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(540): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(546): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(548): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(605): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(607): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(641): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\sapi\flitettsengineobj\flitettsengineobj.cpp(643): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Win32\Debug\FliteTTSEngineObj.lib) does not match the Library's OutputFile property value (C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteTTSEngineObj\Debug\FliteTTSEngineObj.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:".\Debug\FliteTTSEngineObj.lib" /NOLOGO .\Debug\FliteTTSEngineObj.obj
+         .\Debug\flite_sapi_usenglish.obj
+         FliteTTSEngineObj.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Win32\Debug\FliteTTSEngineObj.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteTTSEngineObj\FliteTTSEngineObj.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80

@@ -1,0 +1,27 @@
+Build started 10/30/2015 10:26:25 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_us_kal\cmu_us_kal.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /I..\..\lang\cmulex /I..\..\lang\usenglish /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D NO_UNION_INITIALIZATION /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\cmu_us_kal.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\lang\cmu_us_kal\cmu_us_kal.c ..\..\lang\cmu_us_kal\cmu_us_kal_diphone.c ..\..\lang\cmu_us_kal\cmu_us_kal_lpc.c ..\..\lang\cmu_us_kal\cmu_us_kal_res.c ..\..\lang\cmu_us_kal\cmu_us_kal_residx.c ..\..\lang\cmu_us_kal\cmu_us_kal_ressize.c
+         cmu_us_kal_ressize.c
+         cmu_us_kal_residx.c
+         cmu_us_kal_res.c
+         cmu_us_kal_lpc.c
+         cmu_us_kal_diphone.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\lang\cmu_us_kal\cmu_us_kal_diphone.c(29): warning C4305: 'initializing': truncation from 'double' to 'float'
+         cmu_us_kal.c
+     1>c:\users\administrator\documents\projects\vocalid\flite-2.0.0\lang\cmu_us_kal\cmu_us_kal.c(74): warning C4305: 'function': truncation from 'double' to 'float'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Win32\Debug\cmu_us_kal.lib) does not match the Library's OutputFile property value (C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_us_kal\Debug\cmu_us_kal.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:".\Debug\cmu_us_kal.lib" /NOLOGO .\Debug\cmu_us_kal.obj
+         .\Debug\cmu_us_kal_diphone.obj
+         .\Debug\cmu_us_kal_lpc.obj
+         .\Debug\cmu_us_kal_res.obj
+         .\Debug\cmu_us_kal_residx.obj
+         .\Debug\cmu_us_kal_ressize.obj
+         cmu_us_kal.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Win32\Debug\cmu_us_kal.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_us_kal\cmu_us_kal.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.90

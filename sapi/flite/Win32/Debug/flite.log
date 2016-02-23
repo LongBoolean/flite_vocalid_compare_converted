@@ -1,0 +1,10 @@
+Build started 10/30/2015 10:58:39 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Win32\Debug\flite.lib) does not match the Library's OutputFile property value (C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\Debug\flite.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>Lib:
+         flite.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\Win32\Debug\flite.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

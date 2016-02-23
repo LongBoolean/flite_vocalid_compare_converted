@@ -1,0 +1,85 @@
+Build started 10/30/2015 11:03:59 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /D NDEBUG /D WIN32 /D _LIB /D NO_UNION_INITIALIZATION /D CST_AUDIO_NONE /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\flite.pdb" /Gd /TC /errorReport:prompt ..\..\src\cg\cst_cg_load_voice.c ..\..\src\stats\cst_cart.c ..\..\src\utils\cst_features.c
+         cst_cg_load_voice.c
+         cst_cart.c
+         cst_features.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\\flite.lib" /NOLOGO /MACHINE:X64 x64\Release\audio.obj
+         x64\Release\au_command.obj
+         x64\Release\au_none.obj
+         x64\Release\au_streaming.obj
+         x64\Release\cst_cg.obj
+         x64\Release\cst_cg_dump_voice.obj
+         x64\Release\cst_cg_load_voice.obj
+         x64\Release\cst_cg_map.obj
+         x64\Release\cst_mlpg.obj
+         x64\Release\cst_mlsa.obj
+         x64\Release\cst_spamf0.obj
+         x64\Release\cst_vc.obj
+         x64\Release\cst_ffeature.obj
+         x64\Release\cst_item.obj
+         x64\Release\cst_relation.obj
+         x64\Release\cst_rel_io.obj
+         x64\Release\cst_utterance.obj
+         x64\Release\cst_lexicon.obj
+         x64\Release\cst_lts.obj
+         x64\Release\cst_regex.obj
+         x64\Release\regexp.obj
+         x64\Release\regsub.obj
+         x64\Release\cst_lpcres.obj
+         x64\Release\cst_track.obj
+         x64\Release\cst_track_io.obj
+         x64\Release\cst_wave.obj
+         x64\Release\cst_wave_io.obj
+         x64\Release\cst_wave_utils.obj
+         x64\Release\g721.obj
+         x64\Release\g723_24.obj
+         x64\Release\g723_40.obj
+         x64\Release\g72x.obj
+         x64\Release\rateconv.obj
+         x64\Release\cst_cart.obj
+         x64\Release\cst_viterbi.obj
+         x64\Release\cst_ffeatures.obj
+         x64\Release\cst_phoneset.obj
+         x64\Release\cst_ssml.obj
+         x64\Release\cst_synth.obj
+         x64\Release\cst_utt_utils.obj
+         x64\Release\cst_voice.obj
+         x64\Release\flite.obj
+         x64\Release\cst_alloc.obj
+         x64\Release\cst_args.obj
+         x64\Release\cst_endian.obj
+         x64\Release\cst_error.obj
+         x64\Release\cst_features.obj
+         x64\Release\cst_file_stdio.obj
+         x64\Release\cst_mmap_none.obj
+         x64\Release\cst_mmap_win32.obj
+         x64\Release\cst_socket.obj
+         x64\Release\cst_string.obj
+         x64\Release\cst_tokenstream.obj
+         x64\Release\cst_url.obj
+         x64\Release\cst_val.obj
+         x64\Release\cst_val_const.obj
+         x64\Release\cst_val_user.obj
+         x64\Release\cst_wchar.obj
+         x64\Release\cst_clunits.obj
+         x64\Release\cst_diphone.obj
+         x64\Release\cst_reflpc.obj
+         x64\Release\cst_sigpr.obj
+         x64\Release\cst_sts.obj
+         x64\Release\cst_units.obj
+     1>cst_mmap_none.obj : warning LNK4006: cst_free_part_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: cst_free_whole_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: cst_mmap_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: cst_munmap_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: cst_read_part_file already defined in cst_mmap_win32.obj; second definition ignored
+     1>cst_mmap_none.obj : warning LNK4006: cst_read_whole_file already defined in cst_mmap_win32.obj; second definition ignored
+         flite.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\flite.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78

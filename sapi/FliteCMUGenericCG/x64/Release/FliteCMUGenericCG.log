@@ -1,0 +1,35 @@
+Build started 10/30/2015 11:04:04 PM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteCMUGenericCG\FliteCMUGenericCG.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\flitettsengineobj /Zi /nologo /W3 /WX- /sdl /O2 /D _WINDOWS /D NDEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Release\FliteCMUGenericCG_x64.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\flitettsengineobj /Zi /nologo /W3 /WX- /sdl /O2 /D _WINDOWS /D NDEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Release\FliteCMUGenericCG_x64.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt FliteCMUGenericCG.cpp FliteCMUGenericCGObj.cpp
+         FliteCMUGenericCG.cpp
+         FliteCMUGenericCGObj.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\flitettsengineobj /Zi /nologo /W3 /WX- /sdl /O2 /D _WINDOWS /D NDEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /errorReport:prompt FliteCMUGenericCG_i.c
+         FliteCMUGenericCG_i.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\FliteCMUGenericCG.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.pdb" /SUBSYSTEM:WINDOWS,"5.02" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /DLL x64\Release\FliteCMUGenericCG.res
+         x64\Release\dllmain.obj
+         x64\Release\FliteCMUGenericCG.obj
+         x64\Release\FliteCMUGenericCGObj.obj
+         x64\Release\FliteCMUGenericCG_i.obj
+         x64\Release\stdafx.obj
+         "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\cmulex.lib"
+         "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\cmu_cg.lib"
+         "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\flite.lib"
+         "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteTTSEngineObj.lib"
+         "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\usenglish.lib"
+            Creating library C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.lib and object C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         FliteCMUGenericCG.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.dll
+       RegisterOutput:
+         regsvr32 /s "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.dll"
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(1662,5): warning MSB3075: The command "regsvr32 /s "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\FliteCMUGenericCG_x64.dll"" exited with code 5. Please verify that you have sufficient rights to run this command.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(1674,5): error MSB8011: Failed to register output. Please try enabling Per-user Redirection or register the component from a command prompt with elevated permissions.
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\FliteCMUGenericCG\FliteCMUGenericCG.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.16

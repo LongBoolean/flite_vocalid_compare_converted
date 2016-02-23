@@ -1,0 +1,24 @@
+Build started 9/22/2015 5:40:09 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmulex\cmulex.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\cmulex.pdb" /Gd /TC /errorReport:prompt ..\..\lang\cmulex\cmu_lex.c ..\..\lang\cmulex\cmu_lex_data.c ..\..\lang\cmulex\cmu_lex_entries.c ..\..\lang\cmulex\cmu_lts_model.c ..\..\lang\cmulex\cmu_lts_rules.c ..\..\lang\cmulex\cmu_postlex.c
+         cmu_lex.c
+         cmu_lex_data.c
+         cmu_lex_entries.c
+         cmu_lts_model.c
+         cmu_lts_rules.c
+         cmu_postlex.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\cmulex.lib" /NOLOGO /MACHINE:X64 x64\Release\cmu_lex.obj
+         x64\Release\cmu_lex_data.obj
+         x64\Release\cmu_lex_entries.obj
+         x64\Release\cmu_lts_model.obj
+         x64\Release\cmu_lts_rules.obj
+         x64\Release\cmu_postlex.obj
+         cmulex.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\x64\Release\cmulex.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmulex\cmulex.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45

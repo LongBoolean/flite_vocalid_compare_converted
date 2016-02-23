@@ -1,0 +1,9 @@
+Build started 9/22/2015 3:32:04 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         flite.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\.\Release\flite.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\flite\flite.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

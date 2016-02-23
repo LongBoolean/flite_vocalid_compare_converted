@@ -1,0 +1,104 @@
+Build started 9/16/2015 9:24:25 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\usenglish\usenglish.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /Oy- /D NDEBUG /D WIN32 /D _LIB /D NO_UNION_INITIALIZATION /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Release\\" /Fd".\Release\usenglish.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\lang\usenglish\usenglish.c ..\..\lang\usenglish\us_aswd.c ..\..\lang\usenglish\us_durz_cart.c ..\..\lang\usenglish\us_dur_stats.c ..\..\lang\usenglish\us_expand.c ..\..\lang\usenglish\us_f0lr.c ..\..\lang\usenglish\us_f0_model.c ..\..\lang\usenglish\us_ffeatures.c ..\..\lang\usenglish\us_gpos.c ..\..\lang\usenglish\us_int_accent_cart.c ..\..\lang\usenglish\us_int_tone_cart.c ..\..\lang\usenglish\us_nums_cart.c ..\..\lang\usenglish\us_phoneset.c ..\..\lang\usenglish\us_phrasing_cart.c ..\..\lang\usenglish\us_pos_cart.c ..\..\lang\usenglish\us_text.c
+         usenglish.c
+         us_aswd.c
+         us_durz_cart.c
+         us_dur_stats.c
+     1>..\..\lang\usenglish\us_dur_stats.c(41): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(42): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(44): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(45): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(46): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(47): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(48): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(49): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(50): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(52): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(54): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(55): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(56): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(57): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(58): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(59): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(60): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(61): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(62): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(63): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(64): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(65): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(66): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(67): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(68): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(69): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(70): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(71): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(72): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(73): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(74): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(76): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(77): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(78): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(79): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(80): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>..\..\lang\usenglish\us_dur_stats.c(81): warning C4305: 'initializing': truncation from 'double' to 'float'
+         us_expand.c
+     1>..\..\lang\usenglish\us_expand.c(209): warning C4018: '<': signed/unsigned mismatch
+         us_f0lr.c
+     1>..\..\lang\usenglish\us_f0lr.c(105): warning C4305: 'initializing': truncation from 'double' to 'const float'
+         us_f0_model.c
+     1>..\..\lang\usenglish\us_f0_model.c(139): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>..\..\lang\usenglish\us_f0_model.c(149): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>..\..\lang\usenglish\us_f0_model.c(193): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>..\..\lang\usenglish\us_f0_model.c(197): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+     1>..\..\lang\usenglish\us_f0_model.c(200): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+     1>..\..\lang\usenglish\us_f0_model.c(201): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>..\..\lang\usenglish\us_f0_model.c(205): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+         us_ffeatures.c
+     1>..\..\lang\usenglish\us_ffeatures.c(103): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(106): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(131): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(148): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(151): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(153): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(155): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+     1>..\..\lang\usenglish\us_ffeatures.c(157): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+         us_gpos.c
+         us_int_accent_cart.c
+         us_int_tone_cart.c
+         us_nums_cart.c
+         us_phoneset.c
+         us_phrasing_cart.c
+         us_pos_cart.c
+         us_text.c
+     1>..\..\lang\usenglish\us_text.c(322): warning C4018: '<': signed/unsigned mismatch
+     1>..\..\lang\usenglish\us_text.c(706): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:".\Release\usenglish.lib" /NOLOGO .\Release\usenglish.obj
+         .\Release\us_aswd.obj
+         .\Release\us_durz_cart.obj
+         .\Release\us_dur_stats.obj
+         .\Release\us_expand.obj
+         .\Release\us_f0lr.obj
+         .\Release\us_f0_model.obj
+         .\Release\us_ffeatures.obj
+         .\Release\us_gpos.obj
+         .\Release\us_int_accent_cart.obj
+         .\Release\us_int_tone_cart.obj
+         .\Release\us_nums_cart.obj
+         .\Release\us_phoneset.obj
+         .\Release\us_phrasing_cart.obj
+         .\Release\us_pos_cart.obj
+         .\Release\us_text.obj
+         usenglish.vcxproj -> C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\usenglish\.\Release\usenglish.lib
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\usenglish\usenglish.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.29

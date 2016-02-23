@@ -1,0 +1,29 @@
+Build started 9/16/2015 8:49:29 AM.
+     1>Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_us_awb\cmu_us_awb.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\cmu_us_awb.pch" /Fo"Release\\" /Fd"Release\cmu_us_awb.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\lang\cmu_us_awb\cmu_us_awb.c ..\..\lang\cmu_us_awb\cmu_us_awb_cg.c ..\..\lang\cmu_us_awb\cmu_us_awb_cg_durmodel.c ..\..\lang\cmu_us_awb\cmu_us_awb_cg_f0_trees.c ..\..\lang\cmu_us_awb\cmu_us_awb_cg_phonestate.c ..\..\lang\cmu_us_awb\cmu_us_awb_cg_single_mcep_trees.c ..\..\lang\cmu_us_awb\cmu_us_awb_cg_single_params.c ..\..\lang\cmu_us_awb\cmu_us_awb_spamf0_accent.c ..\..\lang\cmu_us_awb\cmu_us_awb_spamf0_accent_params.c ..\..\lang\cmu_us_awb\cmu_us_awb_spamf0_phrase.c
+         cmu_us_awb.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_cg.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_cg.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_cg_durmodel.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_cg_durmodel.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_cg_f0_trees.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_cg_f0_trees.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_cg_phonestate.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_cg_phonestate.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_cg_single_mcep_trees.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_cg_single_mcep_trees.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_cg_single_params.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_cg_single_params.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_spamf0_accent.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_spamf0_accent.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_spamf0_accent_params.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_spamf0_accent_params.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         cmu_us_awb_spamf0_phrase.c
+     1>..\..\lang\cmu_us_awb\cmu_us_awb_spamf0_phrase.c : fatal error C1853: 'Release\cmu_us_awb.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+     1>Done Building Project "C:\Users\Administrator\Documents\projects\vocalid\flite-2.0.0\sapi\cmu_us_awb\cmu_us_awb.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.19
